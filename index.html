@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>대전광역시 - 대한민국의 과학 · 문화 중심 도시</title>
+    <!-- Google Fonts & Font Awesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <!-- AOS (Animate On Scroll) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <i class="fas fa-atom"></i> 대전
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">홈</a></li>
+                <li><a href="#about" class="nav-link">대전 소개</a></li>
+                <li><a href="#attractions" class="nav-link">명소</a></li>
+                <li><a href="#food" class="nav-link">맛집</a></li>
+                <li><a href="#gallery" class="nav-link">갤러리</a></li>
+                <li><a href="#contact" class="nav-link">문의</a></li>
+            </ul>
+            <div class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+            <h1>대전광역시</h1>
+            <p class="hero-sub">대한민국 과학의 수도, 행복한 도시 대전</p>
+            <div class="hero-badges">
+                <span><i class="fas fa-flask"></i> 과학도시</span>
+                <span><i class="fas fa-university"></i> 교육도시</span>
+                <span><i class="fas fa-tree"></i> 휴양도시</span>
+            </div>
+            <a href="#about" class="btn-primary">더 알아보기 <i class="fas fa-arrow-down"></i></a>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>대전 소개</h2>
+                <div class="divider"></div>
+                <p>대전은 대한민국 중앙부에 위치한 광역시로, 과학 · 행정 · 교통의 중심지입니다.</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card" data-aos="fade-right">
+                    <i class="fas fa-map-marker-alt about-icon"></i>
+                    <h3>위치</h3>
+                    <p>대한민국 중심부, 경부고속철도(KTX)와 경부고속도로가 지나는 교통 요충지</p>
+                </div>
+                <div class="about-card" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-users about-icon"></i>
+                    <h3>인구</h3>
+                    <p>약 145만 명 (2024년 기준) — 대한민국 5대 광역시 중 하나</p>
+                </div>
+                <div class="about-card" data-aos="fade-left">
+                    <i class="fas fa-microchip about-icon"></i>
+                    <h3>과학 · 연구</h3>
+                    <p>대덕연구개발특구, KAIST, ETRI 등 30여 개 국책연구기관 집적</p>
+                </div>
+                <div class="about-card" data-aos="fade-right" data-aos-delay="200">
+                    <i class="fas fa-gavel about-icon"></i>
+                    <h3>행정</h3>
+                    <p>정부대전청사, 특허청, 통계청 등 주요 중앙행정기관 소재</p>
+                </div>
+                <div class="about-card" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-futbol about-icon"></i>
+                    <h3>스포츠</h3>
+                    <p>프로축구 대전하나시티즌, 프로배구 대전삼성화재 블루팡스</p>
+                </div>
+                <div class="about-card" data-aos="fade-left" data-aos-delay="200">
+                    <i class="fas fa-city about-icon"></i>
+                    <h3>자매도시</h3>
+                    <p>오다(일본), 시애틀(미국), 난징(중국), 부다페스트(헝가리) 등 17개 도시</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== STATS SECTION ===== -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item" data-aos="zoom-in">
+                    <i class="fas fa-flask"></i>
+                    <span class="stat-num" data-target="30">0</span>
+                    <span class="stat-label">국책연구기관</span>
+                </div>
+                <div class="stat-item" data-aos="zoom-in" data-aos-delay="100">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span class="stat-num" data-target="18">0</span>
+                    <span class="stat-label">대학교</span>
+                </div>
+                <div class="stat-item" data-aos="zoom-in" data-aos-delay="200">
+                    <i class="fas fa-train"></i>
+                    <span class="stat-num" data-target="3">0</span>
+                    <span class="stat-label">KTX 역사</span>
+                </div>
+                <div class="stat-item" data-aos="zoom-in" data-aos-delay="300">
+                    <i class="fas fa-museum"></i>
+                    <span class="stat-num" data-target="12">0</span>
+                    <span class="stat-label">공원 · 박물관</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ATTRACTIONS SECTION ===== -->
+    <section class="section" id="attractions">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>대전 명소</h2>
+                <div class="divider"></div>
+                <p>대전에서 꼭 가봐야 할 명소들을 소개합니다.</p>
+            </div>
+            <div class="attractions-grid">
+                <div class="attraction-card" data-aos="flip-left" data-aos-delay="100">
+                    <div class="attraction-img" style="background-image: url('https://images.unsplash.com/photo-1569880153113-76e33fc52d5f?w=600&q=80');"></div>
+                    <div class="attraction-info">
+                        <span class="attraction-tag">자연</span>
+                        <h3>계족산 황톳길</h3>
+                        <p>14.5km의 황톳길을 맨발로 걸으며 힐링하는 대전 대표 자연 명소</p>
+                        <a href="https://www.daejeon.go.kr" target="_blank" class="btn-link">자세히 보기 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="attraction-card" data-aos="flip-left" data-aos-delay="200">
+                    <div class="attraction-img" style="background-image: url('https://images.unsplash.com/photo-1599827552590-e48f561b14e0?w=600&q=80');"></div>
+                    <div class="attraction-info">
+                        <span class="attraction-tag">과학</span>
+                        <h3>국립중앙과학관</h3>
+                        <p>첨단 과학기술과 자연사를 한곳에서 체험할 수 있는 국내 최대 과학관</p>
+                        <a href="https://www.science.go.kr" target="_blank" class="btn-link">자세히 보기 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="attraction-card" data-aos="flip-left" data-aos-delay="300">
+                    <div class="attraction-img" style="background-image: url('https://images.unsplash.com/photo-1574484284002-952d92456975?w=600&q=80');"></div>
+                    <div class="attraction-info">
+                        <span class="attraction-tag">문화</span>
+                        <h3>대전 오월드</h3>
+                        <p>동물원, 놀이공원, 꽃박람회가 어우러진 가족 나들이 명소</p>
+                        <a href="https://www.oworld.kr" target="_blank" class="btn-link">자세히 보기 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="attraction-card" data-aos="flip-left" data-aos-delay="100">
+                    <div class="attraction-img" style="background-image: url('https://images.unsplash.com/photo-1566140967404-b8b9e7dd4a8c?w=600&q=80');"></div>
+                    <div class="attraction-info">
+                        <span class="attraction-tag">역사</span>
+                        <h3>대전보문산성</h3>
+                        <p>백제 시대 축조된 역사 깊은 산성, 시내 전망이 탁월한 명소</p>
+                        <a href="https://www.daejeon.go.kr" target="_blank" class="btn-link">자세히 보기 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="attraction-card" data-aos="flip-left" data-aos-delay="200">
+                    <div class="attraction-img" style="background-image: url('https://images.unsplash.com/photo-1578896709950-4dbb56674990?w=600&q=80');"></div>
+                    <div class="attraction-info">
+                        <span class="attraction-tag">쇼핑</span>
+                        <h3>둔산동 · 은행동</h3>
+                        <p>대전의 중심 상권! 먹거리, 볼거리, 즐길거리가 가득한 번화가</p>
+                        <a href="https://www.daejeon.go.kr" target="_blank" class="btn-link">자세히 보기 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="attraction-card" data-aos="flip-left" data-aos-delay="300">
+                    <div class="attraction-img" style="background-image: url('https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?w=600&q=80');"></div>
+                    <div class="attraction-info">
+                        <span class="attraction-tag">전망</span>
+                        <h3>식장산 전망대</h3>
+                        <p>대전 시내를 한눈에 내려다보는 최고의 야경 명소</p>
+                        <a href="https://www.daejeon.go.kr" target="_blank" class="btn-link">자세히 보기 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ===== FOOD SECTION ===== -->
+    <section class="section food-section" id="food">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>대전 먹거리</h2>
+                <div class="divider"></div>
+                <p>대전의 특색 있는 로컬 푸드를 만나보세요.</p>
+            </div>
+            <div class="food-grid">
+                <div class="food-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="food-icon"><i class="fas fa-drumstick-bite"></i></div>
+                    <h3>성심당</h3>
+                    <p>대전의 자랑! 빵지순례 필수 코스, 튀김소보로가 특히 유명한 베이커리</p>
+                </div>
+                <div class="food-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="food-icon"><i class="fas fa-utensils"></i></div>
+                    <h3>대전 칼국수</h3>
+                    <p>은행동 골목에 즐비한 칼국수 맛집, 시원한 육수와 쫄깃한 면발이 일품</p>
+                </div>
+                <div class="food-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="food-icon"><i class="fas fa-bread-slice"></i></div>
+                    <h3>떡볶이 골목</h3>
+                    <p>대전 중구 은행동 떡볶이 골목에서 즐기는 추억의 길거리 음식</p>
+                </div>
+                <div class="food-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="food-icon"><i class="fas fa-seedling"></i></div>
+                    <h3>대청호 회</h3>
+                    <p>대청호에서 잡은 신선한 민물고기로 만든 맑은 회와 매운탕</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ===== GALLERY SECTION ===== -->
+    <section class="section" id="gallery">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>대전 갤러리</h2>
+                <div class="divider"></div>
+                <p>아름다운 대전의 풍경을 감상하세요.</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="https://images.unsplash.com/photo-1569880153113-76e33fc52d5f?w=600&q=80" alt="계족산 황톳길" loading="lazy" />
+                    <div class="gallery-overlay"><span>계족산 황톳길</span></div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="https://images.unsplash.com/photo-1599827552590-e48f561b14e0?w=600&q=80" alt="국립중앙과학관" loading="lazy" />
+                    <div class="gallery-overlay"><span>국립중앙과학관</span></div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="https://images.unsplash.com/photo-1574484284002-952d92456975?w=600&q=80" alt="대전 오월드" loading="lazy" />
+                    <div class="gallery-overlay"><span>대전 오월드</span></div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="https://images.unsplash.com/photo-1566140967404-b8b9e7dd4a8c?w=600&q=80" alt="대전 야경" loading="lazy" />
+                    <div class="gallery-overlay"><span>대전 야경</span></div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?w=600&q=80" alt="식장산" loading="lazy" />
+                    <div class="gallery-overlay"><span>식장산 전망대</span></div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="https://images.unsplash.com/photo-1578896709950-4dbb56674990?w=600&q=80" alt="대전 번화가" loading="lazy" />
+                    <div class="gallery-overlay"><span>둔산동 야경</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ===== CONTACT / CTA ===== -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <div class="contact-wrapper" data-aos="fade-up">
+                <div class="section-header">
+                    <h2>함께하는 대전</h2>
+                    <div class="divider"></div>
+                    <p>대전광역시에 대해 더 알고 싶으신가요?<br />다양한 소식을 받아보세요.</p>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <input type="text" placeholder="이름" required />
+                        <input type="email" placeholder="이메일" required />
+                    </div>
+                    <textarea rows="5" placeholder="대전에 대한 궁금한 점이나 의견을 남겨주세요." required></textarea>
+                    <button type="submit" class="btn-primary">
+                        <i class="fas fa-paper-plane"></i> 보내기
+                    </button>
+                </form>
+                <p class="form-message" id="formMessage"></p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <i class="fas fa-atom"></i> 대전광역시
+                    <p>대한민국 과학의 중심, 행복한 도시 대전</p>
+                </div>
+                <div class="footer-links">
+                    <h4>바로가기</h4>
+                    <a href="#home">홈</a>
+                    <a href="#about">대전 소개</a>
+                    <a href="#attractions">명소</a>
+                    <a href="#food">맛집</a>
+                </div>
+                <div class="footer-social">
+                    <h4>함께하기</h4>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Youtube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Blog"><i class="fas fa-blog"></i></a>
+                    </div>
+                </div>
+                <div class="footer-info">
+                    <h4>연락처</h4>
+                    <p><i class="fas fa-phone"></i> 042-120 (대전시 콜센터)</p>
+                    <p><i class="fas fa-envelope"></i> webmaster@daejeon.go.kr</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 대전광역시 서구 둔산로 100</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 대전광역시. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
