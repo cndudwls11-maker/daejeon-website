@@ -354,6 +354,9 @@ img { max-width: 100%; display: block; }
 
 .attraction-placeholder i { font-size: 2rem; color: #70849a; }
 
+.reference-image-link { display: block; color: inherit; }
+.reference-image-link:hover .attraction-placeholder { background: linear-gradient(135deg, #dce7f2, #c9d8e8); }
+
 .attraction-info { padding: 25px; }
 
 .attraction-tag {
