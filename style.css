@@ -326,13 +326,33 @@ img { max-width: 100%; display: block; }
 }
 
 .attraction-img {
+    display: block;
+    width: 100%;
     height: 200px;
-    background-size: cover;
-    background-position: center;
-    transition: transform 0.5s;
+    object-fit: cover;
+    object-position: center;
 }
 
-.attraction-card:hover .attraction-img { transform: scale(1.05); }
+.image-credit {
+    display: block;
+    margin: 0 0 12px;
+    color: #687083;
+    font-size: 0.75rem;
+}
+
+.attraction-placeholder {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: linear-gradient(135deg, #e8eef5, #d5deea);
+    color: #526174;
+    font-size: 0.9rem;
+}
+
+.attraction-placeholder i { font-size: 2rem; color: #70849a; }
 
 .attraction-info { padding: 25px; }
 
@@ -422,10 +442,26 @@ img { max-width: 100%; display: block; }
     justify-content: center;
     opacity: 0;
     transition: opacity 0.3s;
+    pointer-events: none;
 }
 
 .gallery-item:hover .gallery-overlay { opacity: 1; }
 .gallery-overlay span { color: #fff; font-size: 1.1rem; font-weight: 700; }
+
+.gallery-credit {
+    position: absolute;
+    z-index: 2;
+    right: 8px;
+    bottom: 8px;
+    padding: 4px 7px;
+    border-radius: 4px;
+    background: rgba(13, 27, 42, 0.78);
+    color: #fff;
+    font-size: 0.68rem;
+    text-decoration: underline;
+}
+
+.gallery-credit:hover { color: #4dc9f6; }
 
 /* ===== CONTACT ===== */
 .contact-section { background: linear-gradient(135deg, #f8f9fa, #e8eaf6); }
